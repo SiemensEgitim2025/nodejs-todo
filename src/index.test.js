@@ -12,7 +12,7 @@ describe("GET /", function () {
     it("should return 200 OK", function (done) {
         request
             .get("/")
-            .expect(200)
+            .expect(210)
             .end(function (err, res) {
                 if (err) return done(err);
                 done();
